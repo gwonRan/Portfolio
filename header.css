@@ -1,0 +1,21 @@
+header {
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    /* 카테고리를 상단에 놓을지 하단에 놓을지 고민돼 ㅠ-ㅠ */
+}
+
+header .logo_text {
+    font-size: 80px;
+    font-weight: 600;
+}
+
+header .header_nav ul {
+    display: flex;
+    padding-top: 10px;
+}
+
+header .header_nav ul li {
+    margin-right: 15px;
+}

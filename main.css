@@ -1,0 +1,49 @@
+.container {
+    padding: 20px 60px;
+}
+
+.portfolio_main {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .main_img {
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+    overflow: hidden;
+}
+
+main .main_img img {
+    width: 100%;
+}
+
+main .portfolio_main__middle_column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .main_mine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main_sns ul {
+    display: flex;
+    font-size: 40px;
+}
+
+.main_sns li:first-child {
+    margin-right: 15px;
+}
+
+.main_sns li:nth-child(2) {
+    margin-right: 15px;
+}
+
+
+

@@ -5,19 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>gwonRan portfolio</title>
     <script
-      src="https://kit.fontawesome.com/72b94ba6d0.js"
-      crossorigin="anonymous"
-    ></script>
+      src="https://kit.fontawesome.com/72b94ba6d0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header class="border_line">
         <div class="header_logo">
-            <img src="img/main.png" alt="">
-            <div class="logo_text">GR</div>
+            <div class="logo_text purple">GR</div>
         </div>
         <div class="header_nav">
-            <ul>
+            <ul class="purple nav_font nav_weight">
+                <link rel="stylesheet" href=""><li class="header_nav_project">Main</li></link>
                 <link rel="stylesheet" href=""><li class="header_nav_project">Skill</li></link>
                 <link rel="stylesheet" href=""><li class="header_nav_project">Project</li></link>
             </ul>
@@ -27,21 +25,21 @@
     <div class="container">
         <main class="portfolio_main">
             <div class="portfolio_main__column"></div>
-            <div class="portfolio_main__column">
+            <div class="portfolio_main__middle_column">
                 <div class="main_img">
                     <img src="img/myprofile.jpeg" alt="">
                 </div>
                 <div class="main_mine">
                     <span class="name">Gwon miran</span>
-                    <span class="goal"></span>
+                    <span class="goal">미란의 목표는 무엇일까요?</span>
                 </div>
-                <div class="main_sns">
+                <div class="main_sns purple">
                     <ul>
                         <li class="main_sns_github">
-                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/gwonRan"><i class="fab fa-github"></i></a>
                         </li>
                         <li class="main_sns_blog">
-                            <i class="fab fa-blogger"></i>
+                            <a href="https://gwonran.tistory.com/"><i class="fab fa-blogger"></i></a>
                         </li>
                         <li class="main_sns_email">
                             <i class="fas fa-envelope"></i>
@@ -51,37 +49,63 @@
             </div>
             <div class="portfolio_main__column"></div>
         </main>
-        <div class="skill">
-            <div class="language">
-                <span class="lanuage_title">
-                    Launage
-                </span>
-                <div class="lanuage_img">
-                    <div class="lanuage_img_column"></div>
-                    <div class="lanuage_img_column"></div>
-                    <div class="lanuage_img_column"></div>
+    </div>
+    <div class="skill">
+        <span class="skill_title ">
+            SKILL
+        </span>
+        <div class="skill_box">
+            <div class="skill_column">
+                <span class="skill_column_text">Programming</span>
+                <div class="skill_column_box border_square">
+                    <div class="skill_column_box_skill">
+                        <div class="skill_column_box_img"><img src="img/html.png" alt=""></div>
+                        <div class="skill_column_box_text explan">HTML</div>
+                    </div>
+                    <div class="skill_column_box_skill">
+                        <div class="skill_column_box_img"><img src="img/css.png" alt=""></div>
+                        <div class="skill_column_box_text explan">CSS</div>
+                    </div>
+                    <div class="skill_column_box_skill">
+                        <div class="skill_column_box_img"><img src="img/JavaScript_logo.png" alt=""></div>
+                        <div class="skill_column_box_text explan">자바스크립트</div>
+                    </div>
                 </div>
             </div>
-            <div class="tool">
-                <span class="lanuage_tool">
-                    Tool
-                </span>
-                <div class="lanuage_img">
-                    <div class="lanuage_img_column"></div>
-                    <div class="lanuage_img_column"></div>
-                    <div class="lanuage_img_column"></div>
+            <div class="skill_column">
+                <span class="skill_column_text">Design</span>
+                <div class="skill_column_box border_square">
+                    <div class="skill_column_box_skill">
+                        <div class="skill_column_box_img"><img src="img/Illustrator.png" alt=""></div>
+                        <div class="skill_column_box_text explan">일러스트레이터</div>
+                    </div>
+                    <div class="skill_column_box_skill">
+                        <div class="skill_column_box_img"><img src="img/photoshop.jpg" alt=""></div>
+                        <div class="skill_column_box_text explan">포토샵</div>
+                    </div>
+                    <div class="skill_column_box_skill">
+                        <div class="skill_column_box_img"><img src="img/figma.png" alt=""></div>
+                        <div class="skill_column_box_text explan">피그마</div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="project">
-            <span class="lanuage_title">
-                Product
-            </span>
-            <div class="project_column">
-                <div class="project_column__img">
-                    <img src="" alt="">
-                </div>
-                <div class="project_column__explane">
+    </div>
+    <div class="project">
+        <span class="skill_title">
+            Product
+        </span>
+        <div class="project_column">
+            <div class="project_column__img border_square">
+                <img src="img/project.png" alt="">
+            </div>
+            <div class="project_column__explane">
+                <div class="project_title">Glow Pick</div>
+                <div class="project_period">2020.03.01-20.03.12</div>
+                <div class="project_explane">글로우픽 모바일 앱 클론 제작</div>
+                <div class="project_tag">
+                    <div class="project_tag__column">#HTML</div>
+                    <div class="project_tag__column">#CSS</div>
                 </div>
             </div>
         </div>
@@ -90,10 +114,10 @@
         <div class="footer_img">
             <img src="img/main.png" alt="">
         </div>
-        <div class="main_sns">
+        <div class="main_sns purple">
             <ul>
                 <li class="main_sns_github">
-                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/gwonRan"><i class="fab fa-github"></i></a>
                 </li>
                 <li class="main_sns_blog">
                     <a href="https://gwonran.tistory.com/"><i class="fab fa-blogger"></i></a>
