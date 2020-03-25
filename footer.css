@@ -1,10 +1,39 @@
-
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
 
 .footer_img {
-    width: 60px;
+    width: 100px;
 }
 
 .footer_img img {
     width: 100%;
 }
 
+.footer_sns {
+    margin-bottom: 30px;
+}
+
+.footer_sns ul{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.footer_sns li:first-child {
+    margin-right: 16px;
+}
+
+.footer_sns li:nth-child(2) {
+    margin-right: 16px;
+}
+
+.footer_sns li:last-child {
+    font-size: 43px;
+}

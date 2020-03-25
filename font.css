@@ -7,25 +7,56 @@
 }
 
 .nav_font {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .nav_weight {
     font-weight: 500;
 }
 
+.small-font {
+    font-size: 15px;
+}
+
 .border_line {
     border-bottom: 1px solid #dddddd;
 }
 
+.border_short {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 70px;
+    border-bottom: 2px solid #dddddd;
+} 
+
+.border_top {
+    border-top: 1px solid #dddddd;
+}
+
 .skill_title {
-    font-size: 40px;
+    font-size: 45px;
 }
 
 .border_square {
-    border: 1px solid #dddddd;
+    border: 2px solid #dddddd;
 }
 
 .explan {
     font-size: 20px;
+}
+
+.bottom_margin {
+    margin-bottom: 15px;
+}
+
+.line-height {
+    line-height: 30px;
+}
+
+.default_color {
+    color: #373737;
+}
+
+.font_white {
+    color: white;
 }

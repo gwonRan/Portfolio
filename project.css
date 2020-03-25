@@ -1,8 +1,8 @@
 .project {
     display: flex;
     align-items: center;
-    margin-top: 55px;
     flex-direction: column;
+    padding: 70px 10px;
 }
 
 .project_column__img {
@@ -17,7 +17,29 @@
 }
 
 .project_column {
-    display: flex;
-    margin-top: 20px;
     border: 1px solid #dddddd;
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.project_column__explane {
+    border: 1px solid #dddddd;
+}
+
+.project_tag {
+    display: flex;
+}
+
+.project_tag__column {
+    background-color: #a68ae0;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.project_tag__column:first-child{
+    margin-right: 5px;
 }
