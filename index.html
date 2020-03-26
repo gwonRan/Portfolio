@@ -7,6 +7,7 @@
     <script
       src="https://kit.fontawesome.com/72b94ba6d0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icon.ico">
 </head>
 <body>
     <header class="border_line">
@@ -14,10 +15,10 @@
             <div class="logo_text purple">GR</div>
         </div>
         <div class="header_nav">
-            <ul class="purple nav_font nav_weight">
-                <link rel="stylesheet" href=""><li class="header_nav_project">메인</li></link>
-                <link rel="stylesheet" href=""><li class="header_nav_project">기술</li></link>
-                <link rel="stylesheet" href=""><li class="header_nav_project">프로젝트</li></link>
+            <ul class="purple nav_font_em nav_weight">
+                <link rel="stylesheet" href=""><li class="header_nav_project">Main</li></link>
+                <link rel="stylesheet" href=""><li class="header_nav_project">Skill</li></link>
+                <link rel="stylesheet" href=""><li class="header_nav_project">Project</li></link>
             </ul>
         <!-- 페이지에서 내가 원하는 곳으로 이동 가능하도록 링크 넣기 -->
         </div>
@@ -26,7 +27,7 @@
         <main class="portfolio_main">
             <div class="portfolio_main__column"></div>
             <div class="portfolio_main__middle_column">
-                <div class="main_img">
+                <div class="main_img box-shadow">
                     <img src="img/myprofile.jpeg" alt="">
                 </div>
                 <div class="main_mine">
@@ -40,13 +41,13 @@
                 <div class="main_sns purple">
                     <ul>
                         <li class="main_sns_github">
-                            <a href="https://github.com/gwonRan"><i class="fab fa-github"></i></a>
+                            <a href="https://github.com/gwonRan" target="_blank"><i class="fab fa-github"></i></a>
                         </li>
                         <li class="main_sns_blog">
-                            <a href="https://gwonran.tistory.com/"><i class="fab fa-blogger"></i></a>
+                            <a href="https://gwonran.tistory.com/" target="_blank"><i class="fab fa-blogger"></i></a>
                         </li>
                         <li class="main_sns_email">
-                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:gwon.rran@gmail.com" title="메일보내기"><i class="fas fa-envelope"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -58,9 +59,10 @@
         <span class="skill_title nav_weight purple bottom_margin">
             Skill
         </span>
+        <div class="border_short"></div>
         <div class="skill_box">
-            <div class="skill_column border_square">
-                <span class="skill_column_text nav_font default_color">프로그래밍</span>
+            <div class="skill_column">
+                <div class="skill_column_text explan nav_weight purple box-shadow">Programming</div>
                 <div class="skill_column_box">
                     <div class="skill_column_box_skill">
                         <div class="skill_column_box_img"><img src="img/html.png" alt=""></div>
@@ -76,8 +78,8 @@
                     </div>
                 </div>
             </div>
-            <div class="skill_column border_square">
-                <span class="skill_column_text nav_font default_color">디자인</span>
+            <div class="skill_column">
+                <div class="skill_column_text explan nav_weight purple box-shadow">Design</div>
                 <div class="skill_column_box">
                     <div class="skill_column_box_skill">
                         <div class="skill_column_box_img"><img src="img/Illustrator.png" alt=""></div>
@@ -99,14 +101,52 @@
         <span class="skill_title nav_weight purple bottom_margin">
             Project
         </span>
+        <div class="border_short"></div>
         <div class="project_column">
-            <div class="project_column__img border_square">
+            <div class="project_column__img border_square box-shadow">
                 <img src="img/project.png" alt="">
             </div>
-            <div class="project_column__explane">
-                <div class="project_title nav_font default_color nav_weight">Glow Pick</div>
+            <div class="project_column__explane default_color default_color ">
+                <div class="project_title nav_font nav_weight purple">Glow Pick</div>
                 <div class="project_period">2020.03.01-20.03.12</div>
-                <div class="project_explane explan">• 글로우픽 모바일 앱 클론 제작을 통한 HTML과 CSS 활용법 익히기 뭐야뭐지</div>
+                <div class="project_explane em_explan line-height">
+                    글로우픽 모바일 앱 클론 제작을 통한<br> HTML과 CSS 활용법 익히기 뭐야! 뭐지?<br>
+                    폰트 끝에 애매하게 잘리는거 방지하는 법 찾아보기
+                </div>
+                <div class="project_tag">
+                    <div class="project_tag__column">#HTML</div>
+                    <div class="project_tag__column">#CSS</div>
+                </div>
+            </div>
+        </div>
+        <div class="project_column">
+            <div class="project_column__img border_square box-shadow">
+                <img src="img/project.png" alt="">
+            </div>
+            <div class="project_column__explane default_color default_color ">
+                <div class="project_title nav_font nav_weight purple">Glow Pick</div>
+                <div class="project_period">2020.03.01-20.03.12</div>
+                <div class="project_explane em_explan line-height">
+                    글로우픽 모바일 앱 클론 제작을 통한<br> HTML과 CSS 활용법 익히기 뭐야! 뭐지?<br>
+                    폰트 끝에 애매하게 잘리는거 방지하는 법 찾아보기
+                </div>
+                <div class="project_tag">
+                    <div class="project_tag__column">#HTML</div>
+                    <div class="project_tag__column">#CSS</div>
+                </div>
+            </div>
+        </div>
+        <div class="project_column">
+            <div class="project_column__img border_square box-shadow">
+                <img src="img/project.png" alt="">
+            </div>
+            <div class="project_column__explane default_color default_color ">
+                <div class="project_title nav_font nav_weight purple">Glow Pick</div>
+                <div class="project_period">2020.03.01-20.03.12</div>
+                <div class="project_explane em_explan line-height">
+                    글로우픽 모바일 앱 클론 제작을 통한<br> HTML과 CSS 활용법 익히기 뭐야! 뭐지?<br>
+                    폰트 끝에 애매하게 잘리는거 방지하는 법 찾아보기
+                </div>
                 <div class="project_tag">
                     <div class="project_tag__column">#HTML</div>
                     <div class="project_tag__column">#CSS</div>
@@ -121,13 +161,13 @@
         <div class="footer_sns purple">
             <ul>
                 <li class="main_sns_github">
-                    <a href="https://github.com/gwonRan"><i class="fab fa-github"></i></a>
+                    <a href="https://github.com/gwonRan" target="_blank"><i class="fab fa-github"></i></a>
                 </li>
                 <li class="main_sns_blog">
-                    <a href="https://gwonran.tistory.com/"><i class="fab fa-blogger"></i></a>
+                    <a href="https://gwonran.tistory.com/" target="_blank"><i class="fab fa-blogger"></i></a>
                 </li>
                 <li class="main_sns_email">
-                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:gwon.rran@gmail.com" title="메일보내기"><i class="fas fa-envelope"></i></a>
                 </li>
             </ul>
             <span class="small-font footer_span">COPYRIGHT © 2020 BY GWONRAN.ALL RIGHTS RESERVED</span>

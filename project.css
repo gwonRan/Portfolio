@@ -17,19 +17,17 @@
 }
 
 .project_column {
-    border: 1px solid #dddddd;
     width: 100%;
     margin-top: 15px;
     display: flex;
     justify-content: center;
-}
-
-.project_column__explane {
-    border: 1px solid #dddddd;
+    margin-top: 25px;
+    margin-bottom: 10px;
 }
 
 .project_tag {
     display: flex;
+    margin-top: 20px;
 }
 
 .project_tag__column {
@@ -42,4 +40,12 @@
 
 .project_tag__column:first-child{
     margin-right: 5px;
+}
+
+.project_title {
+    margin-bottom: 11px;
+}
+
+.project_period {
+    margin-bottom: 25px;
 }
