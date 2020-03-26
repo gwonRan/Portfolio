@@ -10,6 +10,7 @@
     height: 300px;
     overflow: hidden;
     margin-right: 30px;
+    transition: transform 1s ease-in-out;
 }
 
 .project_column__img img{
@@ -48,4 +49,8 @@
 
 .project_period {
     margin-bottom: 25px;
+}
+
+.project_column__img:hover {
+    transform: scale(1.6);
 }
